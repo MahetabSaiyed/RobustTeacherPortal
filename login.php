@@ -1,3 +1,4 @@
+<?php if(count(get_included_files()) < 5) header("location:/RobustTeacherPortal/"); ?>
 <section class="login">
     <div class="container">
         <h2 align="center" style="color: #c13d32;">Robust Teacher Portal</h2>
