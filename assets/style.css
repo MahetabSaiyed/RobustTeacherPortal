@@ -1,0 +1,119 @@
+/*
+* File: style.css
+* Developed by: Mahetab Saiyed
+* Date: 10 Sep 2024
+*/
+
+
+/* TAGs */
+body
+{
+    background-color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color:deepskyblue;
+}
+
+header, footer
+{
+    background-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+/* Containers */
+.container
+{
+    padding: 8px;
+}
+
+section.login
+{
+    margin: 12% auto;
+}
+
+.box.login-box
+{
+    border-radius: 3px;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.box .box-title
+{
+    border-radius: 3px 3px 0px 0px;
+    margin: 0px !important;
+    padding: 8px;
+    line-height: normal;
+    background-color: #c13d32;
+    color: #d9d9d9;
+}
+
+.box .box-title h3
+{
+    margin: 0px;
+}
+
+.box .box-body
+{
+    border-radius: 0px 0px 3px 3px;
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+
+.form-group
+{
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head-links, .foot-links
+{
+    float: right;
+}
+
+/* Elements */
+header a
+{
+    padding: 0 4px;
+}
+
+.input-text
+{
+    padding: 6px 10px;
+    margin-top: 4px;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+
+.btn
+{
+    border: 2px solid;
+    padding:6px 10px;
+}
+
+.btn-login
+{
+    width: 200px;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 10px 24px;
+    border-color: #444;
+    background-color: #333;
+    color: #d9d9d9;
+}
+
+/* Properties */
+.text-left      {   text-align: left;   }
+.text-center    {   text-align: center; }
+.text-right     {   text-align: right;  }
